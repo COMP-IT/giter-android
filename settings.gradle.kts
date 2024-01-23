@@ -1,8 +1,9 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -15,4 +16,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "giter"
 include(":app")
- 
+include(":core:data")
+include(":core:datastore")
+include(":core:designsystem")
+include(":core:domain")
+include(":core:model")
+include(":core:navigation")
+include(":feature:home")
+include(":feature:main")
