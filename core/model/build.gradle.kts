@@ -1,14 +1,9 @@
 plugins {
-    id("giter.android.library")
-}
-
-android {
-    namespace = "com.comp.giter.core.domain"
+    id("giter.kotlin.library")
+    id("kotlinx-serialization")
 }
 
 dependencies {
-    implementation(projects.core.data)
-    implementation(projects.core.model)
-
-    implementation(libs.inject)
+    api(libs.kotlinx.datetime)
+    implementation(libs.kotlinx.serialization.json)
 }
