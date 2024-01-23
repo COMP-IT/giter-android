@@ -18,3 +18,4 @@ rootProject.name = "giter"
 include(":app")
 include(":core:data")
 include(":core:datastore")
+include(":core:designsystem")
