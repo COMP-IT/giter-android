@@ -18,7 +18,7 @@ landscapist = "2.2.5"
 composeShimmer = "1.0.5"
 
 hilt = "2.48.1"
-hiltNavigationCompose = "1.0.0"
+hiltNavigationCompose = "1.1.0"
 
 junit4 = "4.13.2"
 junitVintageEngine = "5.10.0"
@@ -70,6 +70,7 @@ hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.r
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
 hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 inject = "javax.inject:javax.inject:1"
 
 landscapist-bom = { group = "com.github.skydoves", name = "landscapist-bom", version.ref = "landscapist" }
